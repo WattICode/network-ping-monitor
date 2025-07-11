@@ -103,14 +103,14 @@ Results show:
 docker logs ping-monitor
 
 # Stop the container
-docker-compose down
+docker compose down
 
 # Rebuild after changes
-docker-compose up --build
+docker compose up --build
 
 # Update hosts without rebuilding
 # (just edit hosts.yaml and restart)
-docker-compose restart
+docker compose restart
 ```
 
 ## Troubleshooting
