@@ -1,0 +1,84 @@
+groups:
+  office_floor_1:
+    - ip: 192.168.1.10
+      name: "Reception Desk"
+    - ip: 192.168.1.11
+      name: "Conference Room A"
+    - ip: 192.168.1.12
+      name: "Manager Office"
+    - ip: 192.168.1.13
+      name: "Copy Room Printer"
+    - ip: 192.168.1.14
+      name: "Workstation 01"
+    - ip: 192.168.1.15
+      name: "Workstation 02"
+    - ip: 192.168.1.16
+      name: "Workstation 03"
+    - ip: 192.168.1.17
+      name: "Break Room TV"
+    - ip: 192.168.1.18
+      name: "Security Camera 01"
+    - ip: 192.168.1.19
+      name: "WiFi AP Floor1-A"
+    - ip: 192.168.1.20
+      name: "WiFi AP Floor1-B"
+
+  office_floor_2:
+    - ip: 192.168.2.10
+      name: "HR Office"
+    - ip: 192.168.2.11
+      name: "Accounting Dept"
+    - ip: 192.168.2.12
+      name: "Conference Room B"
+    - ip: 192.168.2.13
+      name: "IT Support Desk"
+    - ip: 192.168.2.14
+      name: "Sales Team Area"
+    - ip: 192.168.2.15
+      name: "Marketing Workstation"
+    - ip: 192.168.2.16
+      name: "Executive Office"
+    - ip: 192.168.2.17
+      name: "Security Camera 02"
+    - ip: 192.168.2.18
+      name: "WiFi AP Floor2-A"
+    - ip: 192.168.2.19
+      name: "WiFi AP Floor2-B"
+
+  warehouse:
+    - ip: 192.168.3.10
+      name: "Shipping Station"
+    - ip: 192.168.3.11
+      name: "Receiving Station"
+    - ip: 192.168.3.12
+      name: "Inventory Scanner 01"
+    - ip: 192.168.3.13
+      name: "Inventory Scanner 02"
+    - ip: 192.168.3.14
+      name: "Forklift Terminal"
+    - ip: 192.168.3.15
+      name: "Loading Dock Camera"
+    - ip: 192.168.3.16
+      name: "Warehouse WiFi AP"
+
+  server_room:
+    - ip: 192.168.4.10
+      name: "Main File Server"
+    - ip: 192.168.4.11
+      name: "Backup Server"
+    - ip: 192.168.4.12
+      name: "Domain Controller"
+    - ip: 192.168.4.13
+      name: "Network Switch"
+    - ip: 192.168.4.14
+      name: "UPS Monitor"
+
+  external_services:
+    - ip: 8.8.8.8
+      name: "Google DNS Primary"
+    - ip: 8.8.4.4
+      name: "Google DNS Secondary"
+    - ip: 1.1.1.1
+      name: "Cloudflare DNS"
+    - ip: 208.67.222.222
+      name: "OpenDNS"
