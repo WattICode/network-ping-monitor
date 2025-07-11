@@ -1,1 +1,24 @@
-
+services:
+  ping-monitor:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount your custom hosts.yaml file here
+      - ./hosts.yaml:/app/hosts.yaml:ro
+    restart: unless-stopped
+    container_name: ping-monitor
+    
+    # Optional: Set environment variables
+    environment:
+      - FLASK_ENV=production
+      
+    # Optional: Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.1'
+          memory: 64M
